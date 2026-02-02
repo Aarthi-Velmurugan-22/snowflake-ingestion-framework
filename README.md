@@ -126,7 +126,8 @@ Key architectural and design choices are documented in **decisions.md**, includi
 👩‍💻 Author
 
 **Aarthi Velmurugan**
-Data Engineering Portfolio Project
+Data Engineering Project
 
 ⭐ If you like this project, feel free to star the repo!
+
 
