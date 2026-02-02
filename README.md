@@ -96,35 +96,6 @@ CDC is handled using Snowflake `MERGE` statements driven by Streams:
 This ensures Snowflake stays in sync with upstream source behavior.
 
 
-📁 Repository Structure
-
-
-snowflake-cdc-pipeline/
-│
-├── README.md
-├── decisions.md
-│
-├── sql/
-│   ├── raw/
-│   │   ├── create_raw_tables.sql
-│   │   ├── create_file_format.sql
-│   │   ├── create_stage.sql
-│   │   └── create_raw_tasks.sql
-│   │
-│   ├── curated/
-│   │   ├── create_curated_tables.sql
-│   │   ├── create_streams.sql
-│   │   └── merge_tasks.sql
-│
-├── sample-data/
-│   ├── customer.csv
-│   ├── product.csv
-│   └── order.csv
-│
-└── architecture/
-    └── architecture.txt
-
-
 
 ## 🧠 Design Decisions
 
@@ -158,3 +129,4 @@ Key architectural and design choices are documented in **decisions.md**, includi
 Data Engineering Portfolio Project
 
 ⭐ If you like this project, feel free to star the repo!
+
